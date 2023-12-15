@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?mf6v3k');
+  src:  url('fonts/icomoon.eot?mf6v3k#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mf6v3k') format('truetype'),
+    url('fonts/icomoon.woff?mf6v3k') format('woff'),
+    url('fonts/icomoon.svg?mf6v3k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-down:before {
+  content: "\e910";
+}
+.icon-chevron-up:before {
+  content: "\e911";
+}
+.icon-x:before {
+  content: "\e90b";
+}
+.icon-hamburger:before {
+  content: "\e90a";
+}
+.icon-discount-setting:before {
+  content: "\e900";
+}
+.icon-life-style:before {
+  content: "\e901";
+}
+.icon-designer:before {
+  content: "\e902";
+}
+.icon-dressing-table:before {
+  content: "\e903";
+}
+.icon-orders-bag:before {
+  content: "\e904";
+}
+.icon-voice-1:before {
+  content: "\e906";
+}
+.icon-vendor:before {
+  content: "\e907";
+}
+.icon-chats:before {
+  content: "\e905";
+}
